@@ -53,13 +53,13 @@ curl http://localhost:3000/health
 Build image from project root:
 
 ```bash
-docker build -t docker-aws-app .
+docker build -t docker-aws .
 ```
 
 Run container:
 
 ```bash
-docker run -p 3000:3000 docker-aws-app
+docker run -p 4000:3000 docker-aws-app
 ```
 
 Then open:
